@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:root="clr-namespace:SwipeMenu"
+             x:Class="SwipeMenu.MainPage" x:DataType="root:MainViewModel">
+
+    <Grid>
+        <SwipeView>
+            <SwipeView.LeftItems>
+                <SwipeItem IconImageSource="ic_flag.png" Text="Flag" BackgroundColor="Yellow" />
+            </SwipeView.LeftItems>
+             <SwipeView.RightItems>
+                <SwipeItem IconImageSource="ic_flag.png" Text="Flag" BackgroundColor="Yellow" />
+            </SwipeView.RightItems>
+        <Image Source="lake.png"
+               Aspect="AspectFill"
+               VerticalOptions="Center"
+               HorizontalOptions="Fill"
+               HeightRequest="400"/>
+            </SwipeView>
+    </Grid>
+
+</ContentPage>
+
